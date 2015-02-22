@@ -27,6 +27,9 @@
     <ClInclude Include="initplayer.h">
       <Filter>Header Files</Filter>
     </ClInclude>
+    <ClInclude Include="bass.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
   </ItemGroup>
   <ItemGroup>
     <ClCompile Include="stdafx.cpp">
