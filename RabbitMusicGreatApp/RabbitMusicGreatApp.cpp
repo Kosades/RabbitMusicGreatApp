@@ -6,8 +6,6 @@
 #include <cstdlib>
 #include <iostream>
 #include <clocale>
-//#include "bass.h"
-//#pragma comment (lib, "bass")
 
 
 int _tmain(int argc, _TCHAR* argv[])
@@ -15,6 +13,7 @@ int _tmain(int argc, _TCHAR* argv[])
 	setlocale(LC_ALL, "en");
 
 	bassiniter player(-1, 44100, 0, 0);
+	player.checkbassversion();
 	player.runbass();
 
 	system("pause");
