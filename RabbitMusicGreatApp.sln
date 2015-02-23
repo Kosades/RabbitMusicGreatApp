@@ -5,6 +5,8 @@ VisualStudioVersion = 12.0.31101.0
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "RabbitMusicGreatApp", "RabbitMusicGreatApp\RabbitMusicGreatApp.vcxproj", "{6C1F174D-730F-4EF8-97DC-1089EF8E6A5A}"
 EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "Updater", "Updater\Updater.vcxproj", "{C742F38D-AE6B-49FE-81A2-DFED040928BF}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Win32 = Debug|Win32
@@ -21,6 +23,12 @@ Global
 		{6C1F174D-730F-4EF8-97DC-1089EF8E6A5A}.Release|Win32.Build.0 = Release|Win32
 		{6C1F174D-730F-4EF8-97DC-1089EF8E6A5A}.Release|x64.ActiveCfg = Release|x64
 		{6C1F174D-730F-4EF8-97DC-1089EF8E6A5A}.Release|x64.Build.0 = Release|x64
+		{C742F38D-AE6B-49FE-81A2-DFED040928BF}.Debug|Win32.ActiveCfg = Debug|Win32
+		{C742F38D-AE6B-49FE-81A2-DFED040928BF}.Debug|Win32.Build.0 = Debug|Win32
+		{C742F38D-AE6B-49FE-81A2-DFED040928BF}.Debug|x64.ActiveCfg = Debug|Win32
+		{C742F38D-AE6B-49FE-81A2-DFED040928BF}.Release|Win32.ActiveCfg = Release|Win32
+		{C742F38D-AE6B-49FE-81A2-DFED040928BF}.Release|Win32.Build.0 = Release|Win32
+		{C742F38D-AE6B-49FE-81A2-DFED040928BF}.Release|x64.ActiveCfg = Release|Win32
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
