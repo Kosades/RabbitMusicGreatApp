@@ -20,21 +20,25 @@ bassiniter::~bassiniter()
 
 void bassiniter::runbass()
 {
+	std::cout << "Initialization...";
 	if (BASS_Init(deviceNumber, soundFreq, initFlags, windowNumber, NULL) == true)
 	{
 		BASS_Init(deviceNumber, soundFreq, initFlags, windowNumber, NULL);
-		printf("Initialized...\n");
+		std::cout << "OK" << std::endl;
 	}
 	else
 	{
+		std::cout << "NO" << std::endl;
 		printf("Error! Can't initialize!\n");
 	}
 }
 
 void bassiniter::checkbassversion()
 {
-	if (HIWORD(BASS_GetVersion()) == BASSVERSION)
+	std::cout << "Checking bass version...";
+	if (HIWORD(BASS_GetVersion()) != BASSVERSION)
 	{
+		std::cout << "NO" << std::endl;
 		std::cout << "!You have an outdated version of bass!\nDo you want to update your player(y/n): ";
 		char updateDesision = 'x';
 		bool changeFlag = false;
@@ -57,14 +61,20 @@ void bassiniter::checkbassversion()
 			}
 		}
 	}
+	else
+	{
+		std::cout << "OK" << std::endl;
+	}
 }
 
 void bassiniter::bassupdate()
 {
-
+	std::cout << "Updating bass...";
 }
 
 void bassiniter::stopbass()
 {
+	std::cout << "Stoping bass...";
 	BASS_Free();
+	std::cout << "OK";
 }

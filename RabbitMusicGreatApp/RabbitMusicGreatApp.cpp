@@ -4,7 +4,6 @@
 #include "stdafx.h"
 #include "initplayer.h"
 #include <cstdlib>
-#include <iostream>
 #include <clocale>
 
 
